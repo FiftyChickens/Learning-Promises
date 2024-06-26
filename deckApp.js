@@ -13,3 +13,8 @@
 //         })
 //         .catch(err => console.log(err))
 // }
+
+fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=1`)
+    .then(response => response.json())
+    .then(data => console.log(data.cards[0].value, data.cards[0].suit))
+    .catch(err => console.log(err))
