@@ -1,0 +1,31 @@
+img {
+    margin-left: 50em;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+button {
+    margin-top: 10.5em;
+    padding: 2em;
+    background-color: aqua;
+}
+
+@media (max-width: 972px) {
+    img {
+        margin-left: 25em;
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+        margin-left: 15em;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        margin-left: 9em;
+    }
+}
